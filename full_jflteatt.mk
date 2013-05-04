@@ -14,13 +14,29 @@
  
 #
 # This file is the build configuration for a full Android
-# build for maguro hardware. This cleanly combines a set of
+# build for jflteatt hardware. This cleanly combines a set of
 # device-specific aspects (drivers) with a device-agnostic
 # product configuration (apps). Except for a few implementation
 # details, it only fundamentally contains two inherit-product
-# lines, full and maguro, hence its name.
+# lines, full and jflteatt, hence its name.
 #
- 
+
+# Extra Apps and files
+PRODUCT_COPY_FILES += \
+    vendor/samsung/d2att/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
+    vendor/samsung/d2att/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
+    vendor/samsung/d2att/apple_smsreceived.ogg:system/media/audio/notifications/apple_smsreceived.ogg \
+    vendor/samsung/d2att/IphoneCellSoundMerge.mp3:system/media/audio/ringtones/IphoneCellSoundMerge.mp3 \
+    vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
+    vendor/samsung/d2att/com.aokp.ota.apk:system/app/com.aokp.ota.apk
+
+# Live Wallpapers
+PRODUCT_PACKAGES += \
+        LiveWallpapers \
+        LiveWallpapersPicker \
+        MagicSmokeWallpapers \
+        VisualizationWallpapers \
+        librs_jni
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
