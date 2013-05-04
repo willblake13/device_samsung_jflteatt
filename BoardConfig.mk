@@ -31,6 +31,6 @@ TARGET_OTA_ASSERT_DEVICE := jflteatt
 
 # Kernel
 TARGET_KERNEL_CONFIG         := jf_att_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := jf_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := underwear_jf_att_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := jfselinux_defconfig
 
