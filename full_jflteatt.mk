@@ -23,13 +23,13 @@
 
 # Extra Apps and files
 PRODUCT_COPY_FILES += \
-    vendor/samsung/d2att/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
-    vendor/samsung/d2att/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
-    vendor/samsung/d2att/CyanMessage.ogg:system/media/audio/notifications/CyanMessage.ogg \
-    vendor/samsung/d2att/apple_smsreceived.ogg:system/media/audio/notifications/apple_smsreceived.ogg \
-    vendor/samsung/d2att/IphoneCellSoundMerge.mp3:system/media/audio/ringtones/IphoneCellSoundMerge.mp3 \
+    vendor/samsung/jfltei337/Alert-SonarMerge.mp3:system/media/audio/notifications/Alert-SonarMerge.mp3 \
+    vendor/samsung/jfltei337/CyanPing.ogg:system/media/audio/notifications/CyanPing.ogg \
+    vendor/samsung/jfltei337/CyanMessage.ogg:system/media/audio/notifications/CyanMessage.ogg \
+    vendor/samsung/jfltei337/apple_smsreceived.ogg:system/media/audio/notifications/apple_smsreceived.ogg \
+    vendor/samsung/jfltei337/IphoneCellSoundMerge.mp3:system/media/audio/ringtones/IphoneCellSoundMerge.mp3 \
     vendor/aokp/prebuilt/common/app/NovaLauncher.apk:system/app/NovaLauncher.apk \
-    vendor/samsung/d2att/com.aokp.ota.apk:system/app/com.aokp.ota.apk
+    vendor/samsung/jfltei337/com.aokp.ota.apk:system/app/com.aokp.ota.apk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
