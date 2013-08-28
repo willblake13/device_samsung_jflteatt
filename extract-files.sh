@@ -4,4 +4,4 @@ set -e
 
 export DEVICE=jfltei337
 export VENDOR=samsung
-./../jflte-common/extract-files.sh $@
+./../jf-common/extract-files.sh $@
